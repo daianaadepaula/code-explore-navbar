@@ -1,22 +1,79 @@
 export const navItems = [
-  { label: "Home", href: "#", path: "/" },
-  { label: "Feminino", href: "#", path: "/feminino" },
-  { label: "Masculino", href: "#", path: "/masculino" },
-  { label: "Infantil", href: "#", path: "/infantil" },
-  { label: "Beleza", href: "#", path: "/beleza" },
-];
-
-export const serviceDropdown = [
-	{
-		title: "Roupas",
-		path: "./roupas",
+  { 
+		label: "Home", 
+		href: "#", 
+		path: "/"
 	},
-	{
-		title: "Calçados",
-		path: "./calcados",
+  { 
+		label: "Feminino", 
+		href: "#", 
+		path: "/feminino",
+		subNav: [
+			{
+				subTitle: "Roupas",
+				href: "#", 
+				subPath: "/roupas",
+			},
+			{
+				subTitle: "Calçados",
+				href: "#", 
+				subPath: "/calcados",
+			},
+			{
+				subTitle: "Acessórios",
+				href: "#", 
+				subPath: "/acessorios",
+			},
+		] 
 	},
-	{
-		title: "Acessórios",
-		path: "./acessorios",
+  { 
+		label: "Masculino", 
+		href: "#", 
+		path: "/masculino",
+		subNav: [
+			{
+				subTitle: "Roupas",
+				href: "#", 
+				subPath: "/roupas",
+			},
+			{
+				subTitle: "Calçados",
+				href: "#", 
+				subPath: "/calcados",
+			},
+			{
+				subTitle: "Acessórios",
+				href: "#", 
+				subPath: "/acessorios",
+			},
+		] 
 	},
+  { 
+		label: "Infantil", 
+		href: "#", 
+		path: "/infantil",
+		subNav: [
+			{
+				subTitle: "Roupas",
+				href: "#", 
+				subPath: "/roupas",
+			},
+			{
+				subTitle: "Calçados",
+				href: "#", 
+				subPath: "/calcados",
+			},
+			{
+				subTitle: "Brinquedos",
+				href: "#", 
+				subPath: "/brinquedos",
+			},
+		] 
+	},
+  { 
+		label: "Beleza", 
+		href: "#", 
+		path: "/beleza" 
+	},
+	
 ];

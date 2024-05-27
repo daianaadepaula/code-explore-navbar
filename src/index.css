@@ -13,9 +13,3 @@
     @apply font-sans m-0 p-0 box-border overflow-hidden;
   }
 }
-
-@layer utilities {
-  .clicked {
-    @apply w-40 absolute align-top gap-10 hidden;
-  }
-}
