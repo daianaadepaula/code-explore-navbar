@@ -1,4 +1,4 @@
-# Code Explorer - Frontend Fusion
+# Code Explorer - Frontend Fusion - Menu Dropdown
 
 O Frontend Fusion é um projeto colaborativo que visa desenvolver soluções de frontend de alta qualidade para diversos propósitos. Valorizamos e encorajamos contribuições de todos os níveis de habilidade e experiência. Se você é um desenvolvedor experiente ou está apenas começando na programação, há espaço para você aqui. O Code Explorer é o primeiro nível deste projeto. 
 
@@ -45,7 +45,7 @@ Abra [http://localhost:5173](http://localhost:5173) no seu navegador para visual
 
 ## Links
 
-Projeto [URL project]()
+Projeto [URL project](https://menu-dropdown-fusion-daiana.netlify.app/)
 
 ## Autor
 
